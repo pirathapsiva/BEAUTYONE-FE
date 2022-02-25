@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+.home-page{
+    min-height: 120vh;
+    background-color: rgb(255, 255, 255);
+    display: 100%;
+   
+  }
+.home{
+  margin-left: 62px;
+  margin-right: 45px;
+  width: 1250px;
+  justify-content: center;
+  
+}
+.image-text{
+  text-align: center;
+  margin-top: -200px;
+  
+}
+.image-text h1 {
+  color: rgb(255, 255, 255);
+  font-family:sans-serif ; 
+  font-weight: bolder;
+}
+
+.image-text h2 {
+  color: rgb(255, 255, 255);
+  font-family:sans-serif ; 
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text2{
+  margin-top: 100px;
+}
+.text2 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+  color:rgb(121, 15, 115) ;
+}
+.our-services-but{
+  margin-top: 40px;
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(121, 15, 115);
+  background-color: white;
+  border-color:rgb(121, 15, 115) ;
+}
+input.our-services-but:hover{
+  background-color: rgb(121, 15, 115);
+  color: rgb(255, 255, 255);
+}
+.ser ul li {
+  display: flex;
+  display: inline-block;
+  padding: 35px;
+}
+.salon{
+  width: 570px;
+  height: 350px;
+  margin-left: -20px;
+  border-color: black;
+  box-shadow: 100px solid black;
+}
+.ser img{
+  border:5px solid rgb(121, 15, 115);
+  box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+      transition: 1s;
+}
+.ser img:hover{
+  transform: scale(0.9);
+}
+
+.ser h1{
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+  color: rgb(121, 15, 115);
+  font-weight: bolder;
+}
+
+.ser a{
+  text-decoration: none;
+  color:rgb(121, 15, 115) ;
+  font-size: 23px;
+  font-family: serif;
+  cursor: pointer;
+}
+.appo{
+  height: 40px;
+  width: 500px;
+  text-align: center;
+  color: rgb(121, 15, 115);
+  border-color:rgb(121, 15, 115) ;
+  background-color: white;
+  opacity: 0.8;
+  font-family: 'Comfortaa', cursive;
+}
+input.appo:hover{
+  color: rgb(250, 250, 250);
+  background-color: rgb(121, 15, 115);
+}
+.team-div ul li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 45px;
+  font-family: sans-serif;
+}
+.team{
+  height:200px;
+  width: 170px;
+}
+.mem{
+  transition: transform 1s;
+}
+.mem:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mem h3{
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color:rgb(121, 15, 115);
+  font-family: 'Comfortaa', cursive;
+}
+.team-div h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
+  font-weight: bolder;
+  color: rgb(121, 15, 115);
+}
+.intro h1 {
+
+ font-weight: bolder;
+ color: rgb(121, 15, 115);
+ text-align: center;
+ margin-left:150px;
+}
+.intro p{
+  font-size: 20px;
+  font-family:'Cinzel Decorative',cursive;
+  color: rgb(121, 15, 115);
+  float: right;
+  width: 700px;
+  margin-left: 100px;
+  border-color:purple;
+}
+
+.img1{
+  width: 300px;
+  height: 400px;
+  margin-left: 35px;
+  margin-top: -125px;
+  
+}
+.intro ul li{
+  display: inline-block;
+}
+ video{
+    margin-left: 130px;
+    margin-right: auto;
+    display: block;
+    margin-top:-460px;
+    box-shadow: 10px 10px 5px #ccc;
+
+}
+
+.our-services-button{
+  margin-top: 40px;
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(121, 15, 115);
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+input.our-services-button:hover{
+  background-color: rgb(121, 15, 115);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,85 @@
+.signup-page{
+  min-height: 120vh;
+  padding-top: 5%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  }
+  .signup-title{
+    font-family:'Cinzel Decorative',cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+  }
+  .signup-form{
+   width: 350px;
+   background-color:rgb(97, 29, 86);
+   height: 550px;
+   float: left;
+   position: relative;
+   box-shadow: inset 0 0 15px rgb(0, 0, 0);
+   margin-left: 50%;
+   margin-top:-550px ;
+  }
+  .register-form{
+    background-color:rgb(97, 29, 86);
+    padding-left: 15%;
+    padding-right: 25%;
+    height: 430px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+    box-shadow:  inset 0 0 15px rgb(0, 0, 0);
+  }
+  .forme-group{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 200px;
+    margin-top: 15px;
+    text-align: center;
+    box-shadow:  0 0 15px rgb(0, 0, 0);
+  }
+  .forme-group input{
+    border: none;
+    width: 160px;
+    height:25px ;
+    outline: none;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+  }
+  .forme-group input :placeholder{
+   text-emphasis-color:   rgb(0, 0, 0);
+  }
+  .forme-group input :hover{
+    background-color: rgb(0, 0, 0);
+    border: none;
+  }
+  .button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    box-shadow:  0 0 15px rgb(0, 0, 0)
+  }
+  .buton :hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  i {
+    color:aliceblue;
+  }
+  .buton{
+    text-align: center;
+    padding-left: 50px;
+  }
+  .signup-page img{
+    margin-left: 22%;
+    height: 550px;
+    opacity: 0.5;
+  }

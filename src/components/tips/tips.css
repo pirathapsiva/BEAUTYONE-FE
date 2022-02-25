@@ -1,0 +1,78 @@
+.tips-page{
+    margin-top: 25px;
+}
+header h1{
+    text-align: center;
+    font-family: 'Cinzel Decorative',cursive;
+    color: rgb(121, 15, 115);
+}
+.tips-body{
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.tips-body img{
+    height: 650px;
+    width: 1200px;
+
+}
+.tips-p{
+    width: 600px;
+    margin-left: 50px;
+    background-color: rgb(121, 15, 115);
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 45px;
+    font-family: 'Cinzel Decorative',cursive;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.tips-img img{
+    width: 320px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: -50px;
+    padding-right: 25px;
+    
+
+}
+.tips-body ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+     
+}
+.tips-body ul{
+    transition: transform 1s; 
+}
+.tips-body ul:hover{
+    transform: scale(1.1); 
+}
+.line2 ul li{
+    display: inline-block;
+    text-decoration: none;
+   
+}
+.tips-p1{
+    width: 600px;
+    margin-left: 350px;
+    background-color: rgb(253, 253, 253);
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 45px;
+    font-family: 'Cinzel Decorative',cursive;
+    color: rgb(121, 15, 115);
+    opacity: 0.8;
+    border-color:rgb(121, 15, 115);
+    
+}
+.tips-p1 p{
+    border-color: rgb(121, 15, 115);
+}
+.tips-img1 img{
+    width: 320px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: -400px;
+    padding-right: 25px;
+  
+}

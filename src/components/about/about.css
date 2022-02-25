@@ -1,0 +1,85 @@
+.about-page{
+    margin-top: 35px;
+}
+.about-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 600px;
+    width: 1200px;
+}
+h1{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(121, 15, 115);
+    font-weight: bolder;
+}
+.about-us ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+.about-us ul{
+    transition: transform 1s; 
+}
+.about-us ul:hover{
+    transform: scale(0.9); 
+}
+.photo{
+    margin-top: 55px;
+    margin-left: 35px;
+}
+.photo img{
+    height: 300px;
+    width: 250px;
+    margin-top: -150px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.pr{
+    width: 930px;
+    margin-left: 25px;
+    margin-top: 45px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.pr p{
+    font-size: 20px;
+    font-family:'Cinzel Decorative',cursive;
+    color: rgb(247, 247, 247);
+    background-color: rgb(121, 15, 115);
+    opacity: 0.8;
+    padding: 17px;
+}
+.contact ul li i{
+    color: rgb(121, 15, 115);
+    font-size: 55px;
+}
+.contact ul li i:hover{
+    transform: scale(1.2)
+}
+.contact ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-inline-end: 150px;
+}
+.contact{
+    margin-left: 480px;
+}
+.p-n ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-inline-end: 105px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(121, 15, 115);
+}
+.p-n{
+    margin-left: 420px;
+}
+.p-n i{
+    color:  rgb(121, 15, 115);
+    padding-inline-end: 25px;
+}

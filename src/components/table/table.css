@@ -1,0 +1,45 @@
+.table{
+    background-color: white;
+}
+.clickable{
+    color: rgb(100, 7, 109);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(255, 255, 255);
+    padding-top: 500px;
+    width:100%;
+}
+
+tbody tr{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color:rgb(100, 7, 109) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="button"]
+{
+    margin-block-end: 5px;
+    width:100px;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline-end: 10px;
+}
+
+input.e-button{
+    width:100px;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+input.e-button:hover{background-color:rgb(165, 90, 165);}
+
+input.d-button{
+    width:100px;
+    background-color: rgb(138, 6, 6);
+    color: white;
+}
+input.d-button:hover{background-color:rgb(172, 86, 86);}

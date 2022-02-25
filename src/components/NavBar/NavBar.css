@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+.App{
+    background-color: black;
+  }
+  .logo{
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+  
+  }
+  
+  .navbar {
+    position: sticky;
+    overflow: hidden;
+    display: 100%;
+    height: 100px;
+    top: 5px;
+    background-color: rgb(255, 255, 255); 
+    display: block;
+    border: none;
+    margin-top: -15px;
+  }
+ 
+  .navbar li {
+    display: inline-block;
+    padding: 0px;
+    padding-left: 0%;
+    position: sticky;
+    margin-top: -10px;
+    text-align: center;
+  }
+  .navbar a {
+    float: left;
+    color: rgb(121, 15, 115);
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+    font-size: 17px; 
+    cursor: pointer;
+    position: sticky;
+    font-family: "Poppins",sans-serif; 
+   }
+  .navbar a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left:0;
+    background:rgb(225, 199, 250);
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  a:hover:after{
+  width: 100%;
+  }
+ a :hover :active{
+   border:red;
+ }
+  .navbar-content{
+   padding: 15px;
+  }
+  .navbar-contents{
+    padding: 15px;
+    padding-inline-end: 25px;
+    
+  }
+  .signup{
+    float: left;
+    text-align: left;
+    padding-top: 5px;
+  
+  }
+ .navbar li i{
+    color:#9801b6
+  }
+  
